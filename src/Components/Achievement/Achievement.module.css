@@ -1,0 +1,42 @@
+.vertical_border {
+    cursor: default;
+    height: 63px;
+    width: 60px;
+    padding-top: 3px;
+    background-color: #000000;
+}
+
+.horizontal_border {
+    cursor: default;
+    height: 60px;
+    width: 63px;
+    padding-left: 3px;
+    margin-left: -3px;
+    background-color: #000000;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54px;
+    height: 54px;
+    margin-right: 2px;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.no_completed {
+    border-color: #ffffff #555555 #555555 #ffffff;
+    background-color: #c4c4c4;
+}
+
+.completed {
+    background-color: #ac7c0c;
+    border-color: #dca414 #493606 #493606 #dca414;
+}
+
+.achievement_img {
+    height: 40px;
+    width: auto;
+}

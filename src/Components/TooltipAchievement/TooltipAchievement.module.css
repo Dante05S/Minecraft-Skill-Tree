@@ -1,0 +1,37 @@
+.tooltip_root {
+  padding: 0 !important;
+  transition-duration: 0 !important;
+}
+
+.tooltip_container {
+    max-width: 170px;
+    box-shadow: 0 4px 4px #00000040;
+    border: 1px solid #000000;
+    border-radius: 5px
+}
+
+.tooltip_title {
+    border-top: 2px solid #008cc6;
+    border-right: 2px solid #008cc6;
+    border-left: 2px solid #008cc6;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 5px;
+    background-color: #006c9a;
+}
+
+.tooltip_description {
+    border-bottom: 2px solid #555;
+    border-right: 2px solid #555;
+    border-left: 2px solid #555;
+    padding: 5px;
+    color: #00ff26;
+    background-color: #212121;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.tooltip_container span {
+    font-size: 16px;
+    display: block;
+}

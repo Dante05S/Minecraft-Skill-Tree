@@ -1,0 +1,46 @@
+@import url('https://fonts.cdnfonts.com/css/minecraftia');
+
+body {
+    margin: 0;
+    font-size: 16px;
+    min-height: 100vh;
+    background-color: #979797;
+    color: #fff;
+    font-family: 'Minecraftia', sans-serif;
+}
+
+button {
+    all: unset;
+    border: none;
+}
+
+
+@keyframes achievement-slide-in {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+@keyframes achievement-slide-out {
+    from {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    to {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+  }
+
+@keyframes loader-anim {
+  0%   {background-size: 20% 100%,20% 100%,20% 100%}
+  33%  {background-size: 20% 10% ,20% 100%,20% 100%}
+  50%  {background-size: 20% 100%,20% 10% ,20% 100%}
+  66%  {background-size: 20% 100%,20% 100%,20% 10% }
+  100% {background-size: 20% 100%,20% 100%,20% 100%}
+}

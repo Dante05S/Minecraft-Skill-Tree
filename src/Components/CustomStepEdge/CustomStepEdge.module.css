@@ -1,0 +1,16 @@
+.edge {
+    pointer-events: none;
+    cursor: default;
+    stroke-width: 8;
+    stroke: #000000;
+    direction: ltr;
+}
+
+.edge ~ path {
+    pointer-events: none;
+    cursor: default;
+    stroke-width: 4;
+    stroke: #ffffff;
+    stroke-opacity: 1;
+    border: 1px solid #000000;
+}

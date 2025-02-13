@@ -29,7 +29,11 @@ function Toast({ image, name, onClose }: ToastProps) {
       }}
     >
       <div className={styles.container}>
-        <img src={image} className={styles.achievement_img} />
+        <img
+          src={image}
+          alt={`Achievement ${name}`}
+          className={styles.achievement_img}
+        />
         <div className={styles.text_container}>
           <span className={styles.title}>Logro desbloqueado</span>
           <span className={styles.description}>{name}</span>

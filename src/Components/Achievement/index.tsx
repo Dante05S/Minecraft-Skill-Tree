@@ -62,7 +62,11 @@ function Achievement({ data }: Props) {
                   isConnectable={false}
                   style={{ visibility: "hidden" }}
                 />
-                <img src={data.image} className={styles.achievement_img} />
+                <img
+                  src={data.image}
+                  alt={`Achievement ${data.name}`}
+                  className={styles.achievement_img}
+                />
                 <Handle
                   type="source"
                   position={Position.Right}
